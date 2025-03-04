@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: #121212;
+    color: white;
+}
+
+/* Navbar */
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 10px;
+    background: #333;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    margin: 20px;
+}
+h1 span {
+    color: blue;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+input, textarea, button {
+    margin: 10px 0;
+    padding: 10px;
+}
+button {
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+
+/* Dark Mode Button */
+#dark-mode-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background: gray;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
