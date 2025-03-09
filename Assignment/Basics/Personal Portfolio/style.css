@@ -1,0 +1,65 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+.hero span {
+    color: #d79e00;
+    /* font: bolder;/ */
+}
+
+/* Sections */
+section {
+    padding: 50px;
+}
+
+.project {
+    background: #e3e3e3;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/* Contact Form */
+input, textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}

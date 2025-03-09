@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <h1>Portfolio</h1>
+            <ul>
+                <li><a href="#about"><b>About</b></a></li>
+                <li><a href="#projects"><b>Projects</b></a></li>
+                <li><a href="#contact"><b>Contact</b></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Hi, I'm <span><u>Vardhman</u></span></h2>
+        <p>MERN | Coder</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2><u>About Me</u></h2>
+        <p>Hello! I'm a passionate web developer skilled in HTML, CSS, and JavaScript.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2><u>Projects</u></h2>
+        <div class="project">
+            <h3>Code-With-Buddy</h3>
+            <p>Real Time Collaboration Code Editor </p>
+        </div>
+        <div class="project">
+            <h3>Diabetic Retinopathy Detection</h3>
+            <p>Detecting Diabetes with 90% Accuracy</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2><u>Contact Me</u></h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
