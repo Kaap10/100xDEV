@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="product-container">
+        <div class="image-carousel">
+            <!-- <img id="main-image" src="image1.jpg" alt="Product Image"> -->
+            <div class="thumbnails">
+                <img src="image1.jpeg" onclick="changeImage('image1.jpg')" alt="Thumbnail 1">
+                <!-- <img src="image2.jpg" onclick="changeImage('image2.jpg')" alt="Thumbnail 2">
+                <img src="image3.jpg" onclick="changeImage('image3.jpg')" alt="Thumbnail 3"> -->
+            </div>
+        </div>
+
+        <div class="product-details">
+            <h2>Stylish Sneakers</h2>
+            <p class="price">$49.99</p>
+            
+            <label for="size">Select Size:</label>
+            <select id="size" onchange="updatePrice()">
+                <option value="49.99">Small - $49.99</option>
+                <option value="54.99">Medium - $54.99</option>
+                <option value="59.99">Large - $59.99</option>
+            </select>
+
+            <p id="extra-details" class="hidden">
+                These stylish sneakers are designed for maximum comfort and durability. Available in multiple sizes and colors.
+            </p>
+
+            <button onclick="toggleDetails()">Show More Details</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
