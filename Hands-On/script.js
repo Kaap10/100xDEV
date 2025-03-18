@@ -1,42 +1,17 @@
-// let person = [
-//     {name: "Alice"},
-//     {roll_no: 43}
-// ];
-
-// let GV = "I am global value: ";
-
-// function myFunction() {
-//     let LV = "I am local value: ";
-//     console.log(GV);
+// function add(a, b) {
+//     return a + b;
 // }
 
-// console.log(LV);
+// console.log(add(4,5));
 
-// let fruits = "apple";
-
-// switch (fruits) {
-//     case "apple":
-//         console.log("It's a Apple!");
-//         break;
-    
-//     case "banana":
-//         console.log("It's a Banana");
-//         break;
+// const add = function(a,b) {
+//     return a+b;
 // }
 
+// console.log(add(4,5));
 
-// let age = 16;
-// let result = (age>=18) ? "Adult" : "Minor";
-// console.log(result);
-
-// const fName = (params) => {
-//     return result;
-// };
-
-let num = 4;
-
-const fname = (num) => {
-    return num * num;
+const add = (a,b) => {
+    return a+b;
 };
 
-console.log(fname(num));
+console.log(add(6,7));
